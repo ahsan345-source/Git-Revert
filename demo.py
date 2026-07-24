@@ -19,7 +19,7 @@ try:
     free_ram = total_ram - used_ram
     usage_percentage = (used_ram / total_ram) * 100
     
-    print(f"\n💾 Free RAM: {free_ram:.2f} GB")
+    print(f"\n💾 ypur free ram is : {free_ram:.2f} GB")
     print(f"📈 Memory Load: {usage_percentage:.1f}%")
     
     if usage_percentage > 80:
