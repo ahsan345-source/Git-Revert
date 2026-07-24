@@ -5,15 +5,12 @@ print("--- 🛠️ DevOps Quick System Script ---")
 username = input("Apna Username darj karein: ")
 role = input("Aapka Role kya hai? (Dev / Ops / Student): ").strip().lower()
 
-print(f"\nAccess Granted: Welcome, {username}!")
+print(f"\nAccess Granted: Welcome to the profile , {username}!")
 
-# Simple Role-based Condition
 if role in ["dev", "ops", "devops"]:
     print("⚡ Status: Admin / Infrastructure Access Active!")
 else:
     print("👤 Status: Standard User / Student Mode Active!")
-
-# Interactive Calculation (Disk / RAM Usage Simulation)
 print("\n--- 📊 Memory Usage Calculator ---")
 try:
     total_ram = float(input("Total System RAM (GBs me): "))
